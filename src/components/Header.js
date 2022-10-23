@@ -6,10 +6,10 @@ const Header = () => {
             <div>
             
                 <div className="navbar bg-primary text-primary-content">
-                     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-                     <Link to='/'>Home</Link>
-                     <Link to='/login'>Log in</Link>
-                     <Link to='/register'>Regiter</Link>
+                     <Link className="btn btn-ghost normal-case text-xl" to='/'>Awesome Auth</Link>
+                     <Link className="btn btn-ghost normal-case text-xl" to='/'>Home</Link>
+                     <Link className="btn btn-ghost normal-case text-xl" to='/login'>Log in</Link>
+                     <Link className="btn btn-ghost normal-case text-xl" to='/register'>Regiter</Link>
                 </div>
             </div>
     );
